@@ -178,9 +178,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        heading: undefined,
-        body: undefined,
-        mono: undefined,
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Pacifico-Regular', 'sans-serif'],
+        mono: ['Hind', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
       },
       fontWeight: {
