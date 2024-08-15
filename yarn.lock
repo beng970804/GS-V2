@@ -1702,6 +1702,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@expo/html-elements@npm:latest":
+  version: 0.10.1
+  resolution: "@expo/html-elements@npm:0.10.1"
+  checksum: 2bacfe22b6879c21e720fa702abcdf6b3df6f64c709ce9b94a6714142775d9948fdbb315368dda91f77fdf35e0a75cc6be04975031b99bdf3dde6817eab531aa
+  languageName: node
+  linkType: hard
+
 "@formatjs/ecma402-abstract@npm:2.0.0":
   version: 2.0.0
   resolution: "@formatjs/ecma402-abstract@npm:2.0.0"
@@ -1751,7 +1758,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/accordion@npm:latest":
+"@gluestack-style/animation-resolver@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@gluestack-style/animation-resolver@npm:1.0.4"
+  peerDependencies:
+    "@gluestack-style/react": ">=1.0"
+  checksum: 46c2451f8081ec88611ecb915dcd81d85130f30355400fab853ae9e3ee94e0ae343df99f595d2e8b1b4bafcc0e836ed9bbbaadfa6251aa4f643e39dcdb20b816
+  languageName: node
+  linkType: hard
+
+"@gluestack-style/legend-motion-animation-driver@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@gluestack-style/legend-motion-animation-driver@npm:1.0.3"
+  peerDependencies:
+    "@gluestack-style/react": ">=1.0.27"
+    "@legendapp/motion": ">=2.2"
+  checksum: f60bdeb6501de4722f7fcd5a28550581ebc88988cf209519a30bcab460b0575d56378e45dbf4df178ccb3f1513a78d0e8d4708fc1661cbf230f9dafa4afd05e7
+  languageName: node
+  linkType: hard
+
+"@gluestack-style/react@npm:^1.0.57":
+  version: 1.0.57
+  resolution: "@gluestack-style/react@npm:1.0.57"
+  dependencies:
+    inline-style-prefixer: ^6.0.1
+    normalize-css-color: ^1.0.2
+  checksum: aa885738df057b962b9a662bf5d679b4708f834ad2ed7bf51f7ef9a7d795f35499e9660313fec0c1bdc835195f50492e460bc93fce78d5eaffbcf53451e5a344
+  languageName: node
+  linkType: hard
+
+"@gluestack-ui/accordion@npm:1.0.5, @gluestack-ui/accordion@npm:latest":
   version: 1.0.5
   resolution: "@gluestack-ui/accordion@npm:1.0.5"
   dependencies:
@@ -1766,7 +1802,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/actionsheet@npm:latest":
+"@gluestack-ui/actionsheet@npm:0.2.43, @gluestack-ui/actionsheet@npm:latest":
   version: 0.2.43
   resolution: "@gluestack-ui/actionsheet@npm:0.2.43"
   dependencies:
@@ -1784,7 +1820,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/alert-dialog@npm:latest":
+"@gluestack-ui/alert-dialog@npm:0.1.30, @gluestack-ui/alert-dialog@npm:latest":
   version: 0.1.30
   resolution: "@gluestack-ui/alert-dialog@npm:0.1.30"
   dependencies:
@@ -1801,7 +1837,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/alert@npm:latest":
+"@gluestack-ui/alert@npm:0.1.15, @gluestack-ui/alert@npm:latest":
   version: 0.1.15
   resolution: "@gluestack-ui/alert@npm:0.1.15"
   peerDependencies:
@@ -1811,7 +1847,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/avatar@npm:latest":
+"@gluestack-ui/avatar@npm:0.1.17, @gluestack-ui/avatar@npm:latest":
   version: 0.1.17
   resolution: "@gluestack-ui/avatar@npm:0.1.17"
   dependencies:
@@ -1823,7 +1859,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/button@npm:latest":
+"@gluestack-ui/button@npm:1.0.7, @gluestack-ui/button@npm:latest":
   version: 1.0.7
   resolution: "@gluestack-ui/button@npm:1.0.7"
   dependencies:
@@ -1837,7 +1873,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/checkbox@npm:latest":
+"@gluestack-ui/checkbox@npm:0.1.30, @gluestack-ui/checkbox@npm:latest":
   version: 0.1.30
   resolution: "@gluestack-ui/checkbox@npm:0.1.30"
   dependencies:
@@ -1856,7 +1892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/divider@npm:latest":
+"@gluestack-ui/divider@npm:0.1.9, @gluestack-ui/divider@npm:latest":
   version: 0.1.9
   resolution: "@gluestack-ui/divider@npm:0.1.9"
   peerDependencies:
@@ -1866,7 +1902,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/fab@npm:latest":
+"@gluestack-ui/fab@npm:0.1.21, @gluestack-ui/fab@npm:latest":
   version: 0.1.21
   resolution: "@gluestack-ui/fab@npm:0.1.21"
   dependencies:
@@ -1880,7 +1916,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/form-control@npm:^0.1.18, @gluestack-ui/form-control@npm:latest":
+"@gluestack-ui/form-control@npm:0.1.18, @gluestack-ui/form-control@npm:^0.1.18, @gluestack-ui/form-control@npm:latest":
   version: 0.1.18
   resolution: "@gluestack-ui/form-control@npm:0.1.18"
   dependencies:
@@ -1903,7 +1939,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/icon@npm:latest":
+"@gluestack-ui/icon@npm:0.1.22, @gluestack-ui/icon@npm:latest":
   version: 0.1.22
   resolution: "@gluestack-ui/icon@npm:0.1.22"
   dependencies:
@@ -1917,7 +1953,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/image@npm:latest":
+"@gluestack-ui/image@npm:0.1.10, @gluestack-ui/image@npm:latest":
   version: 0.1.10
   resolution: "@gluestack-ui/image@npm:0.1.10"
   dependencies:
@@ -1931,7 +1967,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/input@npm:latest":
+"@gluestack-ui/input@npm:0.1.31, @gluestack-ui/input@npm:latest":
   version: 0.1.31
   resolution: "@gluestack-ui/input@npm:0.1.31"
   dependencies:
@@ -1946,7 +1982,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/link@npm:latest":
+"@gluestack-ui/link@npm:0.1.22, @gluestack-ui/link@npm:latest":
   version: 0.1.22
   resolution: "@gluestack-ui/link@npm:0.1.22"
   dependencies:
@@ -1960,7 +1996,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/menu@npm:latest":
+"@gluestack-ui/menu@npm:0.2.36, @gluestack-ui/menu@npm:latest":
   version: 0.2.36
   resolution: "@gluestack-ui/menu@npm:0.2.36"
   dependencies:
@@ -1982,7 +2018,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/modal@npm:latest":
+"@gluestack-ui/modal@npm:0.1.34, @gluestack-ui/modal@npm:latest":
   version: 0.1.34
   resolution: "@gluestack-ui/modal@npm:0.1.34"
   dependencies:
@@ -2028,7 +2064,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/popover@npm:latest":
+"@gluestack-ui/popover@npm:0.1.37, @gluestack-ui/popover@npm:latest":
   version: 0.1.37
   resolution: "@gluestack-ui/popover@npm:0.1.37"
   dependencies:
@@ -2046,7 +2082,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/pressable@npm:latest":
+"@gluestack-ui/pressable@npm:0.1.16, @gluestack-ui/pressable@npm:latest":
   version: 0.1.16
   resolution: "@gluestack-ui/pressable@npm:0.1.16"
   dependencies:
@@ -2060,7 +2096,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/progress@npm:latest":
+"@gluestack-ui/progress@npm:0.1.16, @gluestack-ui/progress@npm:latest":
   version: 0.1.16
   resolution: "@gluestack-ui/progress@npm:0.1.16"
   dependencies:
@@ -2072,7 +2108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/provider@npm:^0.1.6":
+"@gluestack-ui/provider@npm:0.1.12, @gluestack-ui/provider@npm:^0.1.6":
   version: 0.1.12
   resolution: "@gluestack-ui/provider@npm:0.1.12"
   dependencies:
@@ -2086,7 +2122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/radio@npm:latest":
+"@gluestack-ui/radio@npm:0.1.31, @gluestack-ui/radio@npm:latest":
   version: 0.1.31
   resolution: "@gluestack-ui/radio@npm:0.1.31"
   dependencies:
@@ -2116,7 +2152,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/select@npm:latest":
+"@gluestack-ui/select@npm:0.1.27, @gluestack-ui/select@npm:latest":
   version: 0.1.27
   resolution: "@gluestack-ui/select@npm:0.1.27"
   dependencies:
@@ -2131,7 +2167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/slider@npm:latest":
+"@gluestack-ui/slider@npm:0.1.25, @gluestack-ui/slider@npm:latest":
   version: 0.1.25
   resolution: "@gluestack-ui/slider@npm:0.1.25"
   dependencies:
@@ -2149,7 +2185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/spinner@npm:latest":
+"@gluestack-ui/spinner@npm:0.1.14, @gluestack-ui/spinner@npm:latest":
   version: 0.1.14
   resolution: "@gluestack-ui/spinner@npm:0.1.14"
   peerDependencies:
@@ -2159,7 +2195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/switch@npm:latest":
+"@gluestack-ui/switch@npm:0.1.22, @gluestack-ui/switch@npm:latest":
   version: 0.1.22
   resolution: "@gluestack-ui/switch@npm:0.1.22"
   dependencies:
@@ -2175,7 +2211,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/textarea@npm:latest":
+"@gluestack-ui/tabs@npm:0.1.17":
+  version: 0.1.17
+  resolution: "@gluestack-ui/tabs@npm:0.1.17"
+  dependencies:
+    "@gluestack-ui/utils": ^0.1.12
+    "@react-native-aria/focus": ^0.2.9
+    "@react-native-aria/interactions": 0.2.13
+  peerDependencies:
+    react: ">=16"
+    react-dom: ">=16"
+  checksum: 0a060a0c211d00fa36d00f9eeef1455e54c708623aae481ba5109fdef6202c7ac33ca2d7b9a2d20b8ec26ec15e3dbd1690e3de3d632e1e64b9f5292aa5c53714
+  languageName: node
+  linkType: hard
+
+"@gluestack-ui/textarea@npm:0.1.23, @gluestack-ui/textarea@npm:latest":
   version: 0.1.23
   resolution: "@gluestack-ui/textarea@npm:0.1.23"
   dependencies:
@@ -2189,7 +2239,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/toast@npm:latest":
+"@gluestack-ui/themed@npm:^1.1.44":
+  version: 1.1.44
+  resolution: "@gluestack-ui/themed@npm:1.1.44"
+  dependencies:
+    "@expo/html-elements": latest
+    "@gluestack-style/animation-resolver": 1.0.4
+    "@gluestack-style/legend-motion-animation-driver": 1.0.3
+    "@gluestack-ui/accordion": 1.0.5
+    "@gluestack-ui/actionsheet": 0.2.43
+    "@gluestack-ui/alert": 0.1.15
+    "@gluestack-ui/alert-dialog": 0.1.30
+    "@gluestack-ui/avatar": 0.1.17
+    "@gluestack-ui/button": 1.0.7
+    "@gluestack-ui/checkbox": 0.1.30
+    "@gluestack-ui/divider": 0.1.9
+    "@gluestack-ui/fab": 0.1.21
+    "@gluestack-ui/form-control": 0.1.18
+    "@gluestack-ui/icon": 0.1.22
+    "@gluestack-ui/image": 0.1.10
+    "@gluestack-ui/input": 0.1.31
+    "@gluestack-ui/link": 0.1.22
+    "@gluestack-ui/menu": 0.2.36
+    "@gluestack-ui/modal": 0.1.34
+    "@gluestack-ui/overlay": 0.1.15
+    "@gluestack-ui/popover": 0.1.37
+    "@gluestack-ui/pressable": 0.1.16
+    "@gluestack-ui/progress": 0.1.16
+    "@gluestack-ui/provider": 0.1.12
+    "@gluestack-ui/radio": 0.1.31
+    "@gluestack-ui/select": 0.1.27
+    "@gluestack-ui/slider": 0.1.25
+    "@gluestack-ui/spinner": 0.1.14
+    "@gluestack-ui/switch": 0.1.22
+    "@gluestack-ui/tabs": 0.1.17
+    "@gluestack-ui/textarea": 0.1.23
+    "@gluestack-ui/toast": 1.0.7
+    "@gluestack-ui/tooltip": 0.1.32
+    "@legendapp/motion": latest
+  peerDependencies:
+    "@gluestack-style/react": ">=1.0.57"
+    "@types/react-native": ">=0.72"
+    react: ">=16"
+    react-dom: ">=16"
+    react-native: ">=0.72"
+    react-native-svg: ">=13.4.0"
+    react-native-web: ">=0.19"
+  checksum: d77e2af78e3b41368242b1e9b7b6ba6d4c8d6a084f0e40dc89fbff21804fbe91f684297000d3d4d8c447f1603ea8336a095bf9132beba0c8bb2609b4fd0d085b
+  languageName: node
+  linkType: hard
+
+"@gluestack-ui/toast@npm:1.0.7, @gluestack-ui/toast@npm:latest":
   version: 1.0.7
   resolution: "@gluestack-ui/toast@npm:1.0.7"
   dependencies:
@@ -2205,7 +2305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@gluestack-ui/tooltip@npm:latest":
+"@gluestack-ui/tooltip@npm:0.1.32, @gluestack-ui/tooltip@npm:latest":
   version: 0.1.32
   resolution: "@gluestack-ui/tooltip@npm:0.1.32"
   dependencies:
@@ -5180,6 +5280,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"boolbase@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "boolbase@npm:1.0.0"
+  checksum: 3e25c80ef626c3a3487c73dbfc70ac322ec830666c9ad915d11b701142fab25ec1e63eff2c450c74347acfd2de854ccde865cd79ef4db1683f7c7b046ea43bb0
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -5708,6 +5815,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"css-in-js-utils@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "css-in-js-utils@npm:3.1.0"
+  dependencies:
+    hyphenate-style-name: ^1.0.3
+  checksum: 066318e918c04a5e5bce46b38fe81052ea6ac051bcc6d3c369a1d59ceb1546cb2b6086901ab5d22be084122ee3732169996a3dfb04d3406eaee205af77aec61b
+  languageName: node
+  linkType: hard
+
+"css-select@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "css-select@npm:5.1.0"
+  dependencies:
+    boolbase: ^1.0.0
+    css-what: ^6.1.0
+    domhandler: ^5.0.2
+    domutils: ^3.0.1
+    nth-check: ^2.0.1
+  checksum: 2772c049b188d3b8a8159907192e926e11824aea525b8282981f72ba3f349cf9ecd523fdf7734875ee2cb772246c22117fc062da105b6d59afe8dcd5c99c9bda
+  languageName: node
+  linkType: hard
+
+"css-tree@npm:^1.1.3":
+  version: 1.1.3
+  resolution: "css-tree@npm:1.1.3"
+  dependencies:
+    mdn-data: 2.0.14
+    source-map: ^0.6.1
+  checksum: 79f9b81803991b6977b7fcb1588799270438274d89066ce08f117f5cdb5e20019b446d766c61506dd772c839df84caa16042d6076f20c97187f5abe3b50e7d1f
+  languageName: node
+  linkType: hard
+
+"css-what@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "css-what@npm:6.1.0"
+  checksum: b975e547e1e90b79625918f84e67db5d33d896e6de846c9b584094e529f0c63e2ab85ee33b9daffd05bff3a146a1916bec664e18bb76dd5f66cbff9fc13b2bbe
+  languageName: node
+  linkType: hard
+
 "cssesc@npm:^3.0.0":
   version: 3.0.0
   resolution: "cssesc@npm:3.0.0"
@@ -5944,6 +6090,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dom-serializer@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "dom-serializer@npm:2.0.0"
+  dependencies:
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.2
+    entities: ^4.2.0
+  checksum: cd1810544fd8cdfbd51fa2c0c1128ec3a13ba92f14e61b7650b5de421b88205fd2e3f0cc6ace82f13334114addb90ed1c2f23074a51770a8e9c1273acbc7f3e6
+  languageName: node
+  linkType: hard
+
+"domelementtype@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "domelementtype@npm:2.3.0"
+  checksum: ee837a318ff702622f383409d1f5b25dd1024b692ef64d3096ff702e26339f8e345820f29a68bcdcea8cfee3531776b3382651232fbeae95612d6f0a75efb4f6
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:^5.0.2, domhandler@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "domhandler@npm:5.0.3"
+  dependencies:
+    domelementtype: ^2.3.0
+  checksum: 0f58f4a6af63e6f3a4320aa446d28b5790a009018707bce2859dcb1d21144c7876482b5188395a188dfa974238c019e0a1e610d2fc269a12b2c192ea2b0b131c
+  languageName: node
+  linkType: hard
+
+"domutils@npm:^3.0.1":
+  version: 3.1.0
+  resolution: "domutils@npm:3.1.0"
+  dependencies:
+    dom-serializer: ^2.0.0
+    domelementtype: ^2.3.0
+    domhandler: ^5.0.3
+  checksum: e5757456ddd173caa411cfc02c2bb64133c65546d2c4081381a3bafc8a57411a41eed70494551aa58030be9e58574fcc489828bebd673863d39924fb4878f416
+  languageName: node
+  linkType: hard
+
 "eastasianwidth@npm:^0.2.0":
   version: 0.2.0
   resolution: "eastasianwidth@npm:0.2.0"
@@ -5999,6 +6183,13 @@ __metadata:
   dependencies:
     iconv-lite: ^0.6.2
   checksum: bb98632f8ffa823996e508ce6a58ffcf5856330fde839ae42c9e1f436cc3b5cc651d4aeae72222916545428e54fd0f6aa8862fd8d25bdbcc4589f1e3f3715e7f
+  languageName: node
+  linkType: hard
+
+"entities@npm:^4.2.0":
+  version: 4.5.0
+  resolution: "entities@npm:4.5.0"
+  checksum: 853f8ebd5b425d350bffa97dd6958143179a5938352ccae092c62d1267c4e392a039be1bae7d51b6e4ffad25f51f9617531fedf5237f15df302ccfb452cbf2d7
   languageName: node
   linkType: hard
 
@@ -6582,6 +6773,13 @@ __metadata:
   version: 2.0.6
   resolution: "fast-levenshtein@npm:2.0.6"
   checksum: 92cfec0a8dfafd9c7a15fba8f2cc29cd0b62b85f056d99ce448bbcd9f708e18ab2764bda4dd5158364f4145a7c72788538994f0d1787b956ef0d1062b0f7c24c
+  languageName: node
+  linkType: hard
+
+"fast-loops@npm:^1.1.3":
+  version: 1.1.4
+  resolution: "fast-loops@npm:1.1.4"
+  checksum: 8031a20f465ef35ac4ad98258470250636112d34f7e4efcb4ef21f3ced99df95a1ef1f0d6943df729a1e3e12a9df9319f3019df8cc1a0e0ed5a118bd72e505f9
   languageName: node
   linkType: hard
 
@@ -7189,6 +7387,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hyphenate-style-name@npm:^1.0.3":
+  version: 1.1.0
+  resolution: "hyphenate-style-name@npm:1.1.0"
+  checksum: b9ed74e29181d96bd58a2d0e62fc4a19879db591dba268275829ff0ae595fcdf11faafaeaa63330a45c3004664d7db1f0fc7cdb372af8ee4615ed8260302c207
+  languageName: node
+  linkType: hard
+
 "iconv-lite@npm:^0.6.2":
   version: 0.6.3
   resolution: "iconv-lite@npm:0.6.3"
@@ -7283,6 +7488,16 @@ __metadata:
   version: 2.0.4
   resolution: "inherits@npm:2.0.4"
   checksum: 4a48a733847879d6cf6691860a6b1e3f0f4754176e4d71494c41f3475553768b10f84b5ce1d40fbd0e34e6bfbb864ee35858ad4dd2cf31e02fc4a154b724d7f1
+  languageName: node
+  linkType: hard
+
+"inline-style-prefixer@npm:^6.0.1":
+  version: 6.0.4
+  resolution: "inline-style-prefixer@npm:6.0.4"
+  dependencies:
+    css-in-js-utils: ^3.1.0
+    fast-loops: ^1.1.3
+  checksum: caf7a75d18acbedc7e3b8bfac17563082becd2df6b65accad964a6afdf490329b42315c37fe65ba0177cc10fd32809eb40d62aba23a0118c74d87d4fc58defa2
   languageName: node
   linkType: hard
 
@@ -8791,6 +9006,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdn-data@npm:2.0.14":
+  version: 2.0.14
+  resolution: "mdn-data@npm:2.0.14"
+  checksum: 9d0128ed425a89f4cba8f787dca27ad9408b5cb1b220af2d938e2a0629d17d879a34d2cb19318bdb26c3f14c77dd5dfbae67211f5caaf07b61b1f2c5c8c7dc16
+  languageName: node
+  linkType: hard
+
 "memoize-one@npm:^5.0.0":
   version: 5.2.1
   resolution: "memoize-one@npm:5.2.1"
@@ -9409,6 +9631,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"normalize-css-color@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "normalize-css-color@npm:1.0.2"
+  checksum: 7433dc995a8d27c9384059ef0b52ceef47f4fab1bab55f1f085058b27e7472466ce321f46391fc85b6851db5212b9bd2bf55f5dc361da01a8a8cf4c360f69dab
+  languageName: node
+  linkType: hard
+
 "normalize-path@npm:^3.0.0, normalize-path@npm:~3.0.0":
   version: 3.0.0
   resolution: "normalize-path@npm:3.0.0"
@@ -9422,6 +9651,15 @@ __metadata:
   dependencies:
     path-key: ^3.0.0
   checksum: 5374c0cea4b0bbfdfae62da7bbdf1e1558d338335f4cacf2515c282ff358ff27b2ecb91ffa5330a8b14390ac66a1e146e10700440c1ab868208430f56b5f4d23
+  languageName: node
+  linkType: hard
+
+"nth-check@npm:^2.0.1":
+  version: 2.1.1
+  resolution: "nth-check@npm:2.1.1"
+  dependencies:
+    boolbase: ^1.0.0
+  checksum: 5afc3dafcd1573b08877ca8e6148c52abd565f1d06b1eb08caf982e3fa289a82f2cae697ffb55b5021e146d60443f1590a5d6b944844e944714a5b549675bcd3
   languageName: node
   linkType: hard
 
@@ -10233,6 +10471,20 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: fad4f54d7f005f4fb3d90d983bedcf1ec7de936259b8e286feb35edaa9d1ac16d8b927fcd59eeea7f91446310432b342fd9785301a304955844785fef52a3e31
+  languageName: node
+  linkType: hard
+
+"react-native-svg@npm:^15.5.0":
+  version: 15.5.0
+  resolution: "react-native-svg@npm:15.5.0"
+  dependencies:
+    css-select: ^5.1.0
+    css-tree: ^1.1.3
+    warn-once: 0.1.1
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 597c126a0d6feebf0aa0f4d1a03b835d7b2fd9908ddd02f4935a5f824232e61a0ef96c269220639f31b7a64a1cb33dd9343932d3bf379dc75161cba4f6f78349
   languageName: node
   linkType: hard
 
@@ -11471,6 +11723,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@gluestack-style/react": ^1.0.57
     "@gluestack-ui/accordion": latest
     "@gluestack-ui/actionsheet": latest
     "@gluestack-ui/alert": latest
@@ -11498,6 +11751,7 @@ __metadata:
     "@gluestack-ui/spinner": latest
     "@gluestack-ui/switch": latest
     "@gluestack-ui/textarea": latest
+    "@gluestack-ui/themed": ^1.1.44
     "@gluestack-ui/toast": latest
     "@gluestack-ui/tooltip": latest
     "@legendapp/motion": latest
@@ -11517,6 +11771,7 @@ __metadata:
     react: 18.2.0
     react-native: 0.74.5
     react-native-reanimated: ^3.15.0
+    react-native-svg: ^15.5.0
     react-test-renderer: 18.2.0
     tailwindcss: ^3.4.9
     typescript: 5.0.4
@@ -11957,6 +12212,13 @@ __metadata:
   dependencies:
     makeerror: 1.0.12
   checksum: ad7a257ea1e662e57ef2e018f97b3c02a7240ad5093c392186ce0bcf1f1a60bbadd520d073b9beb921ed99f64f065efb63dfc8eec689a80e569f93c1c5d5e16c
+  languageName: node
+  linkType: hard
+
+"warn-once@npm:0.1.1":
+  version: 0.1.1
+  resolution: "warn-once@npm:0.1.1"
+  checksum: e6a5a1f5a8dba7744399743d3cfb571db4c3947897875d4962a7c5b1bf2195ab4518c838cb4cea652e71729f21bba2e98dc75686f5fccde0fabbd894e2ed0c0d
   languageName: node
   linkType: hard
 
